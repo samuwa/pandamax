@@ -160,7 +160,7 @@ with col1.container(border=True):
     st.write(" - Automatización de Procesos")
     st.markdown("#")
     l1, l2, l3 = st.columns([3,2,2.5])
-    l2.metric(label="Suscripción Mensual", value="$ 2,500")
+    l2.metric(label="Suscripción Mensual", value="$2,500")
     st.markdown("#")
     st.write("**Excluye costos asociados al consumo de las aplicaciones, como herramientas externas y llamadas a APIs tercerizados*")
 
@@ -176,7 +176,7 @@ with col3.container(border=True):
     st.write(" - Generar cotizaciones PDF")
     st.write(" - Producir reportes")
     st.markdown("#")
-    c1, c2, c3 = st.columns(3)
+    c1, c2, c3 = st.columns([3,2,2.5])
     c2.metric(label="Inversión Única", value="$2,800")
     st.markdown("#")
     st.write("**Opcional: mantenimiento y actualizaciones por $300/mes*")
