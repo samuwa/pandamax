@@ -146,6 +146,8 @@ col1, col2, col3 = st.columns([4, 2, 4])
 
 col2.subheader("Propuesta Comercial")
 
+st.markdown("##")
+
 col1, col2, col3 = st.columns([4, 1, 4])
 # Contenedor 1
 with col1.container(border=True):
