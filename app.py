@@ -159,7 +159,7 @@ with col1.container(border=True):
     st.write(" - Análisis de Datos")
     st.write(" - Automatización de Procesos")
     st.markdown("#")
-    l1, l2, l3 = st.columns(3)
+    l1, l2, l3 = st.columns([3,2,2])
     l2.metric(label="Suscripción Mensual", value="$2,500")
     st.markdown("#")
     st.write("**Excluye costos asociados al consumo de las aplicaciones, como herramientas externas y llamadas a APIs tercerizados*")
