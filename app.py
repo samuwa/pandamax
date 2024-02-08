@@ -144,7 +144,7 @@ col1, col2, col3 = st.columns([4, 1, 4])
 
 col2.subheader("Propuesta Comercial")
 
-col1, col2, col3 = st.columns([4, 1, 4])
+col1, col2, col3 = st.columns([4, 2, 4])
 # Contenedor 1
 with col1.container(border=True):
     st.write("### Suscripción Panama Data Consulting :panda_face:")
