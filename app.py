@@ -140,18 +140,26 @@ with col2.expander("Bubble.io"):
 with col3.expander("ChatGPT"):
     st.write("ChatGPT abrió el universo de la inteligencia artificial para todo el que quiera aprovecharlo, nosotros ya nos montamos en la ola. :surfer:")
 
+
+col1, col2, col3 = st.columns([3, 1, 3])
 # Contenedor 1
-with st.container(border=True):
+with col1..container(border=True):
     st.write("### Suscripción Panama Data Consulting :panda_face:")
-    st.write("Suscripción a nuestro desarrollo y mantenimiento de aplicaciones de Inteligencia Artificial, Análisis de Datos y Automatización de Procesos.")
+    st.write("Suscripción a nuestro desarrollo y mantenimiento de aplicaciones en nuestras especialidades:")
+    st.write(" - Inteligencia Artificial")
+    st.write(" - Análisis de Datos")
+    st.write(" - Automatización de Procesos")
     st.metric(label="Suscripción Mensual", value="$2,500")
 
 
 
 # Contenedor 2
-with st.container(border=True):
+with col3.container(border=True):
     st.write("### Desarrollo de Chatbot :robot_face:")
-    st.write("Desarrollo de chatbot *brillante* con capacidad de captar datos generar cotizaciones y enviarlas a los clientes por correo electrónico.")
+    st.write("Desarrollo de chatbot *brillante* capaces de:")
+    st.write(" - Captar datos de los usuarios")
+    st.write(" - Generar cotizaciones PDF")
+    st.write(" - Producir reportes")
     st.metric(label="Inversión Única", value="$2,800")
 
 # Nota: Asegúrate de reemplazar los textos de título, párrafo, valor de `st.metric` y `delta` con la información específica de tus ofertas.
