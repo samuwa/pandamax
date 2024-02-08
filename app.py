@@ -151,7 +151,7 @@ st.markdown("---")
 
 # Contenedor 2
 with st.container():
-    st.write("### Desarrollo de Chatbot")
+    st.write("### Desarrollo de Chatbot :robot:")
     st.write("Desarrollo de chatbot *brillante* con capacidad de captar datos generar cotizaciones y enviarlas a los clientes por correo electrónico.")
     st.metric(label="Inversión Única", value="$2,800")
 
