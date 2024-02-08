@@ -140,11 +140,11 @@ with col2.expander("Bubble.io"):
 with col3.expander("ChatGPT"):
     st.write("ChatGPT abrió el universo de la inteligencia artificial para todo el que quiera aprovecharlo, nosotros ya nos montamos en la ola. :surfer:")
 
-col1, col2, col3 = st.columns([4, 1, 4])
+col1, col2, col3 = st.columns([4, 2, 4])
 
 col2.subheader("Propuesta Comercial")
 
-col1, col2, col3 = st.columns([4, 2, 4])
+col1, col2, col3 = st.columns([4, 1, 4])
 # Contenedor 1
 with col1.container(border=True):
     st.write("### Suscripción Panama Data Consulting :panda_face:")
