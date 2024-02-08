@@ -140,6 +140,8 @@ with col2.expander("Bubble.io"):
 with col3.expander("ChatGPT"):
     st.write("ChatGPT abrió el universo de la inteligencia artificial para todo el que quiera aprovecharlo, nosotros ya nos montamos en la ola. :surfer:")
 
+st.markdown("##")
+
 col1, col2, col3 = st.columns([4, 2, 4])
 
 col2.subheader("Propuesta Comercial")
