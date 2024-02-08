@@ -13,9 +13,8 @@ llm = OpenAI(api_token=st.secrets['OPENAI'])
 
 st.set_page_config(layout='wide')
 
-c1, c2, c3 = st.columns([3, 3, 3])
-c2.title(":panda_face: PanDa & Multimax :computer:")
-#c2.write("**Panama Data Consulting**")
+st.title(":panda_face: PanDa & Multimax :computer:")
+st.write("**Panama Data Consulting**")
 st.markdown("##")
 
 st.subheader("1. Chatbots Brillantes")
