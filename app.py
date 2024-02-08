@@ -151,6 +151,7 @@ st.markdown("##")
 col1, col2, col3 = st.columns([4, 1, 4])
 # Contenedor 1
 with col1.container(border=True):
+    st.write("*Opción 1*")
     st.write("### Suscripción Panama Data Consulting :panda_face:")
     st.write("Afiliación a nuestro ilimitado desarrollo a la medida y mantenimiento de aplicaciones de:")
     st.write(" - Inteligencia Artificial")
@@ -166,6 +167,7 @@ with col1.container(border=True):
 
 # Contenedor 2
 with col3.container(border=True):
+    st.write("*Opción 2*")
     st.write("### Desarrollo de Chatbot :robot_face:")
     st.write("Desarrollo de chatbot *brillante* capaz de:")
     st.write(" - Captar datos de los usuarios")
