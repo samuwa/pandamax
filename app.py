@@ -141,11 +141,11 @@ with col3.expander("ChatGPT"):
     st.write("ChatGPT abrió el universo de la inteligencia artificial para todo el que quiera aprovecharlo, nosotros ya nos montamos en la ola. :surfer:")
 
 
-col1, col2, col3 = st.columns([3, 1, 3])
+col1, col2, col3 = st.columns([4, 1, 4])
 # Contenedor 1
 with col1.container(border=True):
     st.write("### Suscripción Panama Data Consulting :panda_face:")
-    st.write("Suscripción a nuestro desarrollo y mantenimiento de aplicaciones en nuestras especialidades:")
+    st.write("Afiliación a nuestro desarrollo y mantenimiento de aplicaciones de:")
     st.write(" - Inteligencia Artificial")
     st.write(" - Análisis de Datos")
     st.write(" - Automatización de Procesos")
@@ -156,7 +156,7 @@ with col1.container(border=True):
 # Contenedor 2
 with col3.container(border=True):
     st.write("### Desarrollo de Chatbot :robot_face:")
-    st.write("Desarrollo de chatbot *brillante* capaces de:")
+    st.write("Desarrollo de chatbot *brillante* capaz de:")
     st.write(" - Captar datos de los usuarios")
     st.write(" - Generar cotizaciones PDF")
     st.write(" - Producir reportes")
