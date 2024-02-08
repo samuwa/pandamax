@@ -139,3 +139,21 @@ with col2.expander("Bubble.io"):
 
 with col3.expander("ChatGPT"):
     st.write("ChatGPT abrió el universo de la inteligencia artificial para todo el que quiera aprovecharlo, nosotros ya nos montamos en la ola. :surfer:")
+
+# Contenedor 1
+with st.container():
+    st.write("### Suscripción Panama Data Consulting :panda_face:")
+    st.write("Suscripción a nuestro desarrollo y mantenimiento de aplicaciones de Inteligencia Artificial, Análisis de Datos y Automatización de Procesos.")
+    st.metric(label="Suscripción Mensual", value="$2,500")
+
+# Espacio entre contenedores
+st.markdown("---")
+
+# Contenedor 2
+with st.container():
+    st.write("### Desarrollo de Chatbot")
+    st.write("Desarrollo de chatbot *brillante* con capacidad de captar datos generar cotizaciones y enviarlas a los clientes por correo electrónico.")
+    st.metric(label="Inversión Única", value="$2,800")
+
+# Nota: Asegúrate de reemplazar los textos de título, párrafo, valor de `st.metric` y `delta` con la información específica de tus ofertas.
+
