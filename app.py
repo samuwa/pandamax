@@ -156,7 +156,9 @@ with col1.container(border=True):
     st.write(" - Inteligencia Artificial")
     st.write(" - Análisis de Datos")
     st.write(" - Automatización de Procesos")
-    st.metric(label="Suscripción Mensual", value="$2,500")
+    st.markdown("#")
+    col1, col2, col3 = st.columns(3)
+    col2.metric(label="Suscripción Mensual", value="$2,500")
     st.markdown("#")
     st.write("**Excluye costos asociados al consumo de las aplicaciones, como herramientas externas y llamadas a APIs tercerizados*")
 
@@ -169,7 +171,9 @@ with col3.container(border=True):
     st.write(" - Captar datos de los usuarios")
     st.write(" - Generar cotizaciones PDF")
     st.write(" - Producir reportes")
-    st.metric(label="Inversión Única", value="$2,800")
+    st.markdown("#")
+    col1, col2, col3 = st.columns(3)
+    col2.metric(label="Inversión Única", value="$2,800")
     st.markdown("#")
     st.write("**Opcional: mantenimiento y actualizaciones por $300/mes*")
 
