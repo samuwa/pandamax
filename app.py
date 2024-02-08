@@ -152,7 +152,7 @@ col1, col2, col3 = st.columns([4, 1, 4])
 # Contenedor 1
 with col1.container(border=True):
     st.write("### Suscripción Panama Data Consulting :panda_face:")
-    st.write("Afiliación a nuestro desarrollo a la medida y mantenimiento de aplicaciones de:")
+    st.write("Afiliación a nuestro ilimitado desarrollo a la medida y mantenimiento de aplicaciones de:")
     st.write(" - Inteligencia Artificial")
     st.write(" - Análisis de Datos")
     st.write(" - Automatización de Procesos")
