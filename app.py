@@ -143,7 +143,7 @@ with col3.expander("ChatGPT"):
 
 col1, col2, col3 = st.columns([3, 1, 3])
 # Contenedor 1
-with col1..container(border=True):
+with col1.container(border=True):
     st.write("### Suscripción Panama Data Consulting :panda_face:")
     st.write("Suscripción a nuestro desarrollo y mantenimiento de aplicaciones en nuestras especialidades:")
     st.write(" - Inteligencia Artificial")
